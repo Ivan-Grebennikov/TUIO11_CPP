@@ -1,4 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <RemoteDebuggerCommand>C:\scheduler\tuio-dump\TuioDump.exe</RemoteDebuggerCommand>
+    <RemoteDebuggerWorkingDirectory>C:\scheduler\tuio-dump</RemoteDebuggerWorkingDirectory>
+    <RemoteDebuggerServerName>DESKTOP-15DA9VB:4022</RemoteDebuggerServerName>
+    <RemoteDebuggerDebuggerType>NativeOnly</RemoteDebuggerDebuggerType>
+    <DeploymentDirectory>C:\scheduler\tuio-dump</DeploymentDirectory>
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+    <RemoteDebuggerConnection>RemoteWithoutAuthentication</RemoteDebuggerConnection>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <RemoteDebuggerCommand>C:\scheduler\tuio-dump\TuioDump.exe</RemoteDebuggerCommand>
+    <RemoteDebuggerWorkingDirectory>C:\scheduler\tuio-dump</RemoteDebuggerWorkingDirectory>
+    <RemoteDebuggerServerName>DESKTOP-15DA9VB:4022</RemoteDebuggerServerName>
+    <RemoteDebuggerDebuggerType>NativeOnly</RemoteDebuggerDebuggerType>
+    <DeploymentDirectory>C:\scheduler\tuio-dump</DeploymentDirectory>
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+    <RemoteDebuggerConnection>RemoteWithoutAuthentication</RemoteDebuggerConnection>
+  </PropertyGroup>
 </Project>
